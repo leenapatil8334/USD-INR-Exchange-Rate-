@@ -1,6 +1,6 @@
 
 # YOUTUBE_chatbot
-# 🎙️ RAG-based YouTube Chatbot with LangChain & Hugging Face
+# RAG-based YouTube Chatbot with LangChain & Hugging Face
 
 This project implements a Retrieval-Augmented Generation (RAG) based chatbot that can answer questions using transcripts from YouTube videos. It leverages `LangChain`, `FAISS` for vector search, and Hugging Face models like `LLaMA 3` for generating contextually relevant responses.
 
