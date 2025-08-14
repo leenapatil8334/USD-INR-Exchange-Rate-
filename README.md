@@ -1,24 +1,23 @@
 
-# YOUTUBE_chatbot
 # RAG-based YouTube Chatbot with LangChain & Hugging Face
 
 This project implements a Retrieval-Augmented Generation (RAG) based chatbot that can answer questions using transcripts from YouTube videos. It leverages `LangChain`, `FAISS` for vector search, and Hugging Face models like `LLaMA 3` for generating contextually relevant responses.
 
 ---
 
-## 📌 Features
+ Features
 
-- ✅ Automatically fetches YouTube video transcripts using `youtube-transcript-api`.
-- ✅ Splits transcript into meaningful chunks using `RecursiveCharacterTextSplitter`.
-- ✅ Generates dense vector embeddings using Hugging Face embedding models.
-- ✅ Stores and retrieves text chunks using FAISS vector store.
-- ✅ Uses semantic search to find the most relevant chunks.
-- ✅ Constructs prompt and sends it to a Hugging Face-hosted LLM (e.g. `LLaMA 3 8B`).
-- ✅ Fully modular pipeline powered by LangChain runnables.
+- Automatically fetches YouTube video transcripts using `youtube-transcript-api`.
+- Splits transcript into meaningful chunks using `RecursiveCharacterTextSplitter`.
+- Generates dense vector embeddings using Hugging Face embedding models.
+- Stores and retrieves text chunks using FAISS vector store.
+- Uses semantic search to find the most relevant chunks.
+- Constructs prompt and sends it to a Hugging Face-hosted LLM (e.g. `LLaMA 3 8B`).
+- Fully modular pipeline powered by LangChain runnables.
 
 ---
 
-## 🔁 Workflow
+ Workflow
 
 1. **Transcript Fetching**  
    Uses `YouTubeTranscriptApi` to extract the transcript of a given video ID.
